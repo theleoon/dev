@@ -1,0 +1,19 @@
+{
+  "name": "consulta-cep-master",
+  "version": "1.0.0",
+  "description": "Consulta de Cep utilizando jQuery",
+  "main": "cep.js",
+  "dependencies": {
+    "jquery": "^3.2.1",
+    "json-server": "^0.12.0",
+    "lite-server": "^2.3.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "front": "lite-server",
+    "backend": "json-server --watch db.json --port 1234"
+  },
+  "author": "Leonardo Silva - github.com/theleoon",
+  "license": "ISC"
+}
